@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="sidebar">
+        <div class="sidebar sidebarGo">
             <nav>
                 <ul>
                     <li><a href="/">Home</a></li>
@@ -22,22 +22,32 @@
         </div>
 
         <div class="main">
-            <div class="infoContainer">
-                <div class="devInfo">
-                    <div class="hello">Hi I am</div>
-                    <div class="name">Rahul Gandhi</div>
-                    <div class="about">Developer, Entrepreneur, Dancer</div>
-                    <div class="moreabout">I am a developer, and I love to drink coffee. I live in Punjab and I love to visit New Delhi to buy some coffee</div>
-                    <div class="buttons">
-                        <button>Download CV</button>
-                        <button>Contact Me</button>
-                    </div>
-                </div>
-                <div class="devPic"><img src="dev.png" alt="Rahul Gandhi"></div>
+            <div class="hamburger">
+                <img class="ham" src="ham.png" alt="" width="23">
+                <img class="cross" src="cross.png" alt="" width="23">
             </div>
 
+            <div class="intro">
+            
+                <h2>About Me</h2>
+                <p>My educational background is in Electrical Engineering, but I took the initiative to learn programming independently. I have a collection of projects on my GitHub profile that demonstrate my programming skills. 
+                    I’m dedicated to continuous learning and constantly seek out new knowledge.
+                    One of my standout qualities is my unwavering determination to confront and overcome challenges. I approach problems head-on, which has proven to be a valuable trait in my academic and personal pursuits.
+                </p>
+                <h2>My Skills</h2>
+                <div class="skillcontainer">
+                    <div class="skillItem">HTML: <div class="skill hundered"></div></div>
+                    <div class="skillItem">CSS: <div class="skill"></div></div>
+                    <div class="skillItem">JavaScript: <div class="skill"></div></div>
+                    <div class="skillItem">C++: <div class="skill fifty"></div></div>
+                    <div class="skillItem">React: <div class="skill"></div></div>
+      
+                </div>
+                <!--TODO create a gallery for my projects-->
+            </div>
+                    
         </div>
     </div>
-    
+    <script src="script.js"></script>    
 </body>
 </html>
